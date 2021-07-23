@@ -6,7 +6,7 @@ import java.util.Arrays;
 
 public class PracticeTask {
     public static void main(String[] args) {
-        LocalDate[] days = {LocalDate.of(2021, 07, 23),
+       /* LocalDate[] days = {LocalDate.of(2021, 07, 23),
                 LocalDate.of(2021, 07, 24),
                 LocalDate.of(2021, 07, 25),
                 LocalDate.of(2021, 07, 26),
@@ -21,9 +21,9 @@ public class PracticeTask {
 
         for (int i = 0; i < days.length; i++) {
             System.out.println(days[i].format(DF));
-        }
+        }*/
 
-           /*
+
             DateTimeFormatter DFT= DateTimeFormatter.ofPattern("MMMM/dd, EEEE");
             LocalDate[] arraysDate=new LocalDate[10];
             String[] array=new String[10];
@@ -33,11 +33,11 @@ public class PracticeTask {
                 array[i]=arraysDate[i].format(DFT);
             }
             System.out.println(Arrays.toString(array));
-        }*/
+        }
 
 
     }
-}
+
 /*
  create an array of LocalDate and has the next 10 day's dates,
  use for each loop to print each Date in the following formar:
