@@ -1,4 +1,4 @@
-package MethodsOverloading;
+package day33_Methods;
 
 public class MathMethods {
     public static void main(String[] args) {

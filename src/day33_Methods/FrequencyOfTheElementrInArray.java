@@ -1,4 +1,4 @@
-package MethodsOverloading;
+package day33_Methods;
 
 public class FrequencyOfTheElementrInArray {
 

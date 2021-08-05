@@ -11,6 +11,7 @@ public class Initials {
         System.out.println("Enter your first name:");
         char name = scan.next().charAt(0);
 
+
         System.out.println("Enter your last name:");
         char last = scan.next().charAt(0);
         

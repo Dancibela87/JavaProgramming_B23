@@ -1,4 +1,4 @@
-package day34_ArrayLlist;
+package day35_ArrayLlist;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -24,15 +24,17 @@ public class PracticeTask {
         }*/
 
 
-            DateTimeFormatter DFT= DateTimeFormatter.ofPattern("MMMM/dd, EEEE");
-            LocalDate[] arraysDate=new LocalDate[10];
-            String[] array=new String[10];
-            LocalDate now= LocalDate.now();
-            for (int i = 0; i < arraysDate.length; i++) {
-                arraysDate[i]=now.plusDays(i+1);
-                array[i]=arraysDate[i].format(DFT);
+            DateTimeFormatter DFT= DateTimeFormatter.ofPattern("MMMM/dd, EEE");
+            LocalDate[] dates=new LocalDate[10];
+
+            for (int i = 0; i < dates.length; i++) {
+              dates[i] = LocalDate.now().plusDays(i+1);
             }
-            System.out.println(Arrays.toString(array));
+            System.out.println(Arrays.toString(dates));
+
+            for( LocalDate each: dates ){
+                System.out.println(each.format(DFT));
+            }
         }
 
 

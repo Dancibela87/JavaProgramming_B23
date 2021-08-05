@@ -21,8 +21,5 @@ public class Birthday {
             System.out.println("Today is not your birthday");
         }
 
-
-
-
     }
 }
